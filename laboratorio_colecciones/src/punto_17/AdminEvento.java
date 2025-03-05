@@ -3,7 +3,7 @@ package punto_17;
 import java.time.LocalDate;
 import java.util.TreeMap;
 
-public class AdminEventos {
+public class AdminEvento {
     TreeMap<LocalDate, String> eventos = new TreeMap<>();
 
     public void agregarEvento(LocalDate fecha, String evento){
@@ -23,7 +23,7 @@ public class AdminEventos {
     }
 
     public static void main(String[] args) {
-        AdminEventos admin = new AdminEventos();
+        AdminEvento admin = new AdminEvento();
         admin.agregarEvento(LocalDate.of(2021, 10, 10), "Evento 1");
         admin.agregarEvento(LocalDate.of(2021, 10, 11), "Evento 2");
         admin.agregarEvento(LocalDate.of(2021, 10, 12), "Evento 3");
