@@ -4,7 +4,7 @@ import java.util.TreeSet;
 
 //La mala pa' Elkin
 
-public class AdministradorProductos {
+public class AdministradorProducto {
 
     TreeSet<Producto> productos = new TreeSet<>();
 
@@ -26,7 +26,7 @@ public class AdministradorProductos {
     }
 
     public static void main(String[] args) {
-        AdministradorProductos admin = new AdministradorProductos();
+        AdministradorProducto admin = new AdministradorProducto();
         admin.crearProducto("Producto 1", "001", 100);
         admin.crearProducto("Producto 2", "002", 200);
         admin.crearProducto("Producto 3", "003", 300);
